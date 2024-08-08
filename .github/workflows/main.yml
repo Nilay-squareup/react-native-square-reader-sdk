@@ -1,5 +1,9 @@
 name: react-native-square-reader-SDK
-on: [push]
+on:
+  push:
+    branches:
+      - masni/upgarde_ios_sdk_1.7.2
+  workflow_dispatch:
 jobs:
   install-and-test:
     runs-on: ubuntu-latest
